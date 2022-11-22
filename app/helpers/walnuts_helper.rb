@@ -1,0 +1,2 @@
+module WalnutsHelper
+end
