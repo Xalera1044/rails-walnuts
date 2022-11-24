@@ -22,10 +22,14 @@ h1 {
   background:rgb(250, 249, 249);
   border-top: 15px;
   border-radius: 15px !important;
+  box-sizing: border-box;
 
 }
 
-
+.logo {
+  margin-left: 0 !important;
+  flex-wrap: wrap;
+}
 // .card-img-top {
 //   border-bottom-right-radius: 15px !important;
 //   border-bottom-left-radius: 15px !important;
