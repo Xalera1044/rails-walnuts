@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RailsWalnuts</title>
+    <title>Walnuts</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -13,4 +13,5 @@
   <body>
     <%= yield %>
   </body>
+  <%= render "shared/footer" unless params[:action] == "home" %>
 </html>
