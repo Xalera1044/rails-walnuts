@@ -50,10 +50,11 @@ h1 {
     width:300px;
     display: flex !important;
     flex-direction: column;
-
+    margin-left: 20px;
   }
 
-  .text {
-    width:auto;
+  .contacts {
+    margin-bottom: 15px;
+    margin-left: 0px !important;
   }
 }
